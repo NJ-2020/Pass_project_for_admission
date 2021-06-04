@@ -1,8 +1,8 @@
-git<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
    <meta charset="UTF-8">
-    <title></title>
+    <title>Form project</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
   </head>
@@ -23,17 +23,18 @@ git<!DOCTYPE html>
       <p id="description">This is a survey form created for microverse trail</p>
     </header>
     <section>
-      <form action="" id="survey-form">
+      <h2>Form</h2>
+      <form  id="survey-form">
         <label for="name" id="name-label">Name</label>
         <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
         <label for="email" id="email-label">Email</label>
         <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
         <label for="age" id="number-label">Age (optional)</label>
-        <input type="number" name="age" id="number" placeholder="Please Enter Youe Age " min="18" max="90">
+        <input type="number" name="age" id="age" placeholder="Please Enter Youe Age " min="18" max="90">
 
 
-          <label for="dropdown" id="dropdown-list">Chose someone</label>
-          <select name="dropdown" id="dropdown" required>
+          <label for="dropdown">Chose someone</label>
+          <select id="dropdown">
           <option value="Nadir">Nadir</option>
           <option value="Novel">Novel</option>
           <option value="Microverse">Microverse</option>
@@ -45,24 +46,24 @@ git<!DOCTYPE html>
         <input type="radio" id="Javascript" name="lang-pref" value="Javascript">
 
         <label for="Css" id="cs">Css</label>
-        <input type="radio" name="lang-pref" id="css" value="css">
+        <input type="radio" name="lang-pref" id="Css" value="css">
 
         <label for="html" id="h5">HTML</label>
         <input type="radio" name="lang-pref" id="html" value="html">
 
         <p class="subtitle">What is your preferred side of programming :</p>
         <input type="checkbox" name="option1" id="option1"  value="front-end">
-        <label for="option1" id="opt1">Front-end</label>
+        <label for="option1">Front-end</label>
 
         <input type="checkbox" name="option2" id="option2" value="back-end">
-        <label for="option2" id="opt2">back-end</label>
+        <label for="option2">back-end</label>
 
         <input type="checkbox" name="option3" id="option3" value="full-stack">
-        <label for="option3" id="opt3">Full-stack</label><br>
+        <label for="option3">Full-stack</label><br>
 
         <label for="additional-comment" id="add-comment">Additional Comment :</label>
         <textarea name="additional-comment" id="additional-comment" cols="30" rows="5"></textarea>
-        <button type="submit" id="submit" form="form" value="submit">Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </section>
     <script  src="js/index.js"></script>
